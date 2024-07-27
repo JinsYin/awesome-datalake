@@ -46,21 +46,21 @@ This repository contains a curated list of awesome data lake frameworks.
 
 ## Data Lake Engines
 
+**Compute & Query:**
+
 * [Apache Flink](https://github.com/apache/flink) - Apache Flink is an open source stream processing framework with powerful stream- and batch-processing capabilities.
 * [Apache Hive](https://github.com/apache/hive) - The Apache Hive (TM) data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL.
 * [Apache Sedona](https://github.com/apache/sedona) - A cluster computing framework for processing large-scale geospatial data.
 * [Apache Spark](https://github.com/apache/spark) - Spark is a unified analytics engine for large-scale data processing. 
 * [Dremio](https://github.com/dremio/dremio-oss) - Dremio is a next-generation data lake engine that liberates your data with live, interactive queries directly on cloud data lake storage, including S3 and lakeFS.
-* [Doris](https://github.com/apache/doris) - Apache Doris is an easy-to-use, high performance and unified analytics database. It can access databases and data lakes including Apache Hive, Apache Iceberg, Apache Hudi, Apache Paimon, LakeSoul, Elasticsearch, MySQL, Oracle, and SQLServer. 
 * [Presto](https://github.com/prestodb/presto) - Presto is a distributed SQL query engine for big data.
-* [StarRocks](https://github.com/StarRocks/starrocks) - StarRocks is the next-generation data platform designed to make data-intensive real-time analytics fast and easy. It can work as the compute engine to analyze data stored in data lakes such as Apache Hudi, Apache Iceberg, and Delta Lake.
 * [Trino](https://github.com/trinodb/trino) - Trino is a fast distributed SQL query engine for big data analytics.
 
-## Data Lake Tools
+**MPP:**
 
-* [Smart Data Lake](https://github.com/smart-data-lake/smart-data-lake) - Smart Automation Tool for building modern Data Lakes and Data Pipelines
-* [Kylo](https://github.com/Teradata/kylo) - Kylo is a data lake management software platform and framework for enabling scalable enterprise-class data lakes on big data technologies such as Teradata, Apache Spark and/or Hadoop. Kylo is licensed under Apache 2.0. Contributed by Teradata Inc
-* [Cuelake](https://github.com/cuebook/cuelake) - Use SQL to build ELT pipelines on a data lakehouse.
+* [StarRocks](https://github.com/StarRocks/starrocks) - StarRocks is the next-generation data platform designed to make data-intensive real-time analytics fast and easy. It can work as the compute engine to analyze data stored in data lakes such as Apache Hudi, Apache Iceberg, and Delta Lake.
+* [Doris](https://github.com/apache/doris) - Apache Doris is an easy-to-use, high performance and unified analytics database. It can access databases and data lakes including Apache Hive, Apache Iceberg, Apache Hudi, Apache Paimon, LakeSoul, Elasticsearch, MySQL, Oracle, and SQLServer.
+* [DuckDB](https://github.com/duckdb/duckdb) - DuckDB is an analytical in-process SQL database management system. DuckDB has a flexible extension mechanism that allows for dynamically loading extensions. 
 
 ## Data Catalog
 
@@ -71,8 +71,8 @@ This repository contains a curated list of awesome data lake frameworks.
 
 ## Security
 
-* [Kerberos](https://web.mit.edu/kerberos/) - The Network Authentication Protocol.
 * [Apache Ranger](https://github.com/apache/ranger) - To enable, monitor and manage comprehensive data security across the Hadoop platform and beyond.
+* [Kerberos](https://web.mit.edu/kerberos/) - The Network Authentication Protocol.
 
 ## AI
 
@@ -80,3 +80,9 @@ This repository contains a curated list of awesome data lake frameworks.
 * [Petastorm](https://github.com/uber/petastorm) - Petastorm library enables single machine or distributed training and evaluation of deep learning models from datasets in Apache Parquet format. It supports ML frameworks such as Tensorflow, Pytorch, and PySpark and can be used from pure Python code.
 * [Databricks’ Dolly](https://github.com/databrickslabs/dolly) - Databricks’ Dolly, a large language model trained on the Databricks Machine Learning Platform.
 * [DeepLake](https://github.com/activeloopai/deeplake) - About Database for AI. Store Vectors, Images, Texts, Videos, etc.
+
+## Tools
+
+* [Smart Data Lake](https://github.com/smart-data-lake/smart-data-lake) - Smart Automation Tool for building modern Data Lakes and Data Pipelines
+* [Kylo](https://github.com/Teradata/kylo) - Kylo is a data lake management software platform and framework for enabling scalable enterprise-class data lakes on big data technologies such as Teradata, Apache Spark and/or Hadoop. Kylo is licensed under Apache 2.0. Contributed by Teradata Inc
+* [Cuelake](https://github.com/cuebook/cuelake) - Use SQL to build ELT pipelines on a data lakehouse.
