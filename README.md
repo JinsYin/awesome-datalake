@@ -51,7 +51,9 @@ This repository contains a curated list of awesome data lake frameworks.
 * [Apache Sedona](https://github.com/apache/sedona) - A cluster computing framework for processing large-scale geospatial data.
 * [Apache Spark](https://github.com/apache/spark) - Spark is a unified analytics engine for large-scale data processing. 
 * [Dremio](https://github.com/dremio/dremio-oss) - Dremio is a next-generation data lake engine that liberates your data with live, interactive queries directly on cloud data lake storage, including S3 and lakeFS.
+* [Doris](https://github.com/apache/doris) - Apache Doris is an easy-to-use, high performance and unified analytics database. It can access databases and data lakes including Apache Hive, Apache Iceberg, Apache Hudi, Apache Paimon, LakeSoul, Elasticsearch, MySQL, Oracle, and SQLServer. 
 * [Presto](https://github.com/prestodb/presto) - Presto is a distributed SQL query engine for big data.
+* [StarRocks](https://github.com/StarRocks/starrocks) - StarRocks is the next-generation data platform designed to make data-intensive real-time analytics fast and easy. It can work as the compute engine to analyze data stored in data lakes such as Apache Hudi, Apache Iceberg, and Delta Lake.
 * [Trino](https://github.com/trinodb/trino) - Trino is a fast distributed SQL query engine for big data analytics.
 
 ## Data Lake Tools
@@ -60,10 +62,11 @@ This repository contains a curated list of awesome data lake frameworks.
 * [Kylo](https://github.com/Teradata/kylo) - Kylo is a data lake management software platform and framework for enabling scalable enterprise-class data lakes on big data technologies such as Teradata, Apache Spark and/or Hadoop. Kylo is licensed under Apache 2.0. Contributed by Teradata Inc
 * [Cuelake](https://github.com/cuebook/cuelake) - Use SQL to build ELT pipelines on a data lakehouse.
 
-## Unified Data Catalog
+## Data Catalog
 
 * [Apache Gravitino](https://github.com/apache/Gravitino) - Apache Gravitino is a high-performance, geo-distributed, and federated metadata lake. It manages the metadata directly in different sources, types, and regions. It also provides users with unified metadata access for data and AI assets.
-* [Metacat](https://github.com/Netflix/metacat) - Metacat is a unified metadata exploration API service. You can explore Hive, RDS, Teradata, Redshift, S3 and Cassandra. 
+* [Metacat](https://github.com/Netflix/metacat) - Metacat is a unified metadata exploration API service. You can explore Hive, RDS, Teradata, Redshift, S3 and Cassandra.
+* [Polaris Catalog](https://github.com/polaris-catalog/polaris) - Polaris Catalog is an open source catalog for Apache Iceberg. Polaris Catalog implements Iceberg’s open REST API for multi-engine interoperability with Apache Doris, Apache Flink, Apache Spark, PyIceberg, StarRocks and Trino.
 * [Unity Catalog](https://github.com/unitycatalog/unitycatalog) - Open, Multi-modal Catalog for Data & AI.
 
 ## Security
